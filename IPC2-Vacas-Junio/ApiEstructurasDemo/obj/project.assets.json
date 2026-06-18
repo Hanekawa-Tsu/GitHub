@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\IPC2-Vacas-Junio\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\GitHub\\IPC2-Vacas-Junio\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
       "projectName": "ApiEstructurasDemo",
-      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\IPC2-Vacas-Junio\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\GitHub\\IPC2-Vacas-Junio\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\IPC2-Vacas-Junio\\ApiEstructurasDemo\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\GitHub\\IPC2-Vacas-Junio\\ApiEstructurasDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

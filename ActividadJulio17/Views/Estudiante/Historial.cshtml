@@ -1,0 +1,13 @@
+@model ActividadJulio17.Models.Estudiante
+
+@{
+    ViewData["Title"] = "Historial";
+}
+
+<h1>Historial del Estudiante</h1>
+
+<p><strong>Carnet:</strong> @Model.Carnet</p>
+<p><strong>Nombre:</strong> @Model.Nombre</p>
+<p><strong>Promedio:</strong> @Model.Promedio</p>
+
+<a asp-controller="Estudiante" asp-action="Listar">Volver al listado</a>

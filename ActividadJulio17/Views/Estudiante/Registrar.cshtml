@@ -1,0 +1,35 @@
+@model ActividadJulio17.Models.Estudiante
+
+@{
+    ViewData["Title"] = "Registrar Estudiante";
+}
+
+<h1>Registrar Estudiante</h1>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+
+<form asp-controller="Estudiante" asp-action="Registrar" method="post">
+    <label>Carnet</label>
+    <input asp-for="Carnet" class="form-control" />
+
+    <br />
+
+    <label>Nombre</label>
+    <input asp-for="Nombre" class="form-control" />
+
+    <br />
+
+    <label>Promedio</label>
+    <input asp-for="Promedio" class="form-control" />
+
+    <br />
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+</form>
+
+<br />
+
+<a asp-controller="Estudiante" asp-action="Listar">Volver</a>
